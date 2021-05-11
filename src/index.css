@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import url(../node_modules/semantic-ui-css/semantic.min.css);
+
+@layer utilities {
+    /* active style for navbar menu toggle */
+    .activeMobileMenu{
+        display: flex;
+    }    
+  }
